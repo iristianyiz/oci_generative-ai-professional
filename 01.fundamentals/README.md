@@ -72,7 +72,7 @@ Encodes a sequence of words and use the encoding to output the next word
 To exert some control over the LLM, we can affect the probability over vocabulary in ways
 
 ## Prompting
-The simpliest way to affect the distribution over the vocabularity is to change the prompt
+The simpliest way to affect the distribution over the vocabularity is to change the prompt - e.g. add "little"
 
 ## Prompt
 The text provided to an LLM as input, sometimes containing instructions and/or examples
@@ -85,20 +85,20 @@ The process of iteratively refining a prompt for the purpose of eliciting a part
 
 ## In-context Learning and Few-shot Prompting
 ### In-context learning
-Conditioning (prompting) an LLM with instructions and demonstrations of the task it is meant to complete
+Conditioning (prompting) an LLM with instructions and demonstrations of the task it is meant to complete - e.g. Summarize the following paragraph in one sentence using simple language
 
 ### K-shot prompting
 Explicitly providing _k_ examples of the intended task in the prompt
 
 ## Advanced Prompting Strategies
 ### Chain-of-Thought
-Prompt the LLM to emit intermediate reasoning steps
+Prompt the LLM to emit intermediate reasoning steps (dividing long prompt into chunks - mimics human reasoning solving problems) 
 
 ### Least-to-Most
-Prompt the LLM to decompose the problem and solve, easy-first
+Prompt the LLM to decompose the problem and solve, **easy-first/subproblems first**
 
 ### Step-Back
-Prompt the LLM to identify high-level concepts pertinent to a specific task
+Prompt the LLM to identify high-level concepts pertinent to a specific task (e.g. chem/physics principles) 
 
 ## Issues with prompting
 ### Prompt Injection (Jailbrake)

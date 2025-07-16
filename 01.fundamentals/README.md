@@ -34,6 +34,7 @@ Models that convert a sequence of words to an embedding (vector representation)
 
 ## Decoders
 Models take a sequence of words and output next word
+- **A decoder only produces a single token at a time**
 ### Examples
 * GPT-4
 * Llama

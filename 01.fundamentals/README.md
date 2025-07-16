@@ -43,10 +43,15 @@ Models take a sequence of words and output next word
 
 ## Encoders - Decoders
 Encodes a sequence of words and use the encoding to output the next word
+- **used in sequence-to-sequence tasks like translation; has self-referential loops to the decoder**
 ### Examples
 * T5
 * UL2
 * BART
+
+  **Encoder-only models focus on understanding input text. They’re great for tasks like sentiment analysis or entity recognition.
+  Decoder-only models treat the input as part of the prompt and generate output token by token, without a separate understanding phase.
+  Encoder-decoder models first understand the input deeply (via the encoder), then generate output (via the decoder). This separation allows      for complex transformations between input and output.**
 
 ## Tasks historically performed
 | Task | Encoders | Decoders | Encoder-Decoder |

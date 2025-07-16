@@ -49,9 +49,9 @@ Encodes a sequence of words and use the encoding to output the next word
 * UL2
 * BART
 
-  **Encoder-only models focus on understanding input text. They’re great for tasks like sentiment analysis or entity recognition.
-  Decoder-only models treat the input as part of the prompt and generate output token by token, without a separate understanding phase.
-  Encoder-decoder models first understand the input deeply (via the encoder), then generate output (via the decoder). This separation allows      for complex transformations between input and output.**
+  **Encoder-only models focus on understanding input text. They’re great for tasks like sentiment analysis or entity recognition.**
+  **Decoder-only models treat the input as part of the prompt and generate output token by token, without a separate understanding phase.**
+  **Encoder-decoder models first understand the input deeply (via the encoder), then generate output (via the decoder). This separation allows      for complex transformations between input and output.**
 
 ## Tasks historically performed
 | Task | Encoders | Decoders | Encoder-Decoder |
@@ -67,6 +67,7 @@ Encodes a sequence of words and use the encoding to output the next word
 | Forecasting               | No | No | No |
 | Code                      | No | Yes | Yes |
 
+-- starting from here, focusing on decoders (but applies to encoder-decoder as well) 
 # Prompting and Prompt Engineering
 To exert some control over the LLM, we can affect the probability over vocabulary in ways
 

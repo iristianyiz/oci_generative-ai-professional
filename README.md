@@ -2,10 +2,10 @@
 The porpuse of this repository is to promote the usage of Oracle Generative AI by providing important information and notes needed to acquire the Professional Certification
 
 The content is structured in four parts
-1. [LLM Fundamentals](./01.fundamentals/README.md)
-2. [Generative AI Service](./02.generative-ai-service/README.md)
-3. [Blocks for LLM Apps](./03.blocks-for-llm-apps/README.md)
-4. [OCI Generative AI Service](./04.oci-generative-ai-service/README.md)
+1. [LLM Fundamentals](./01.fundamentals/README.md) - Implement RAG using OCI Gen Al service + Oracle Database 23ai + Langchain
+3. [Generative AI Service](./02.generative-ai-service/README.md)
+4. [Blocks for LLM Apps](./03.blocks-for-llm-apps/README.md)
+5. [OCI Generative AI Service](./04.oci-generative-ai-service/README.md)
 
 ## Prerequisites
 To successfully complete the certification, we should have:
